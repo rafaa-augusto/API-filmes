@@ -29,23 +29,23 @@ A API permite:
 api-filmes/
 │
 ├── config/
-│ └── Database.php # Conexão com banco de dados
+│ └── Database.php 
 │
-├── models/ # Model: representação das entidades
+├── models/ 
 │ ├── User.php
 │ ├── Movie.php
 │ └── Category.php
 │
-├── repositories/ # Repositórios: CRUD e acesso ao banco
+├── repositories/ 
 │ ├── UserRepository.php
 │ ├── MovieRepository.php
 │ └── CategoryRepository.php
 │
-├── services/ # Serviços: regras de negócio (em desenvolvimento)
+├── services/ 
 │ ├── AuthService.php
 │ └── MovieService.php
 │
-├── controllers/ # Controllers: endpoints da API
+├── controllers/ 
 │ └── AuthController.php
 │
 ├── routes/
