@@ -44,18 +44,7 @@ api-filmes/
 ├── services/ 
 │ ├── AuthService.php
 │ └── MovieService.php
-│
-├── controllers/ 
-│ └── AuthController.php
-│
-├── routes/
-│ └── api.php
-│
-├── public/
-│ └── index.php
-│
-└── database/
-└── schema.sql # Script para criar banco e tabelas
+
 ```
 ## Endpoints disponíveis (até agora)
 1.Usuários
